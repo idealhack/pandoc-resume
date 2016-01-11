@@ -1,0 +1,16 @@
+\usepackage[a4paper, top=.5in, bottom=.5in]{geometry}
+\pagestyle{empty}
+
+\setmainfont[
+ ItalicFont={Adobe Kaiti Std}
+ ]{Myriad Pro}
+\setsansfont{Myriad Pro}
+\setmonofont{Monaco}
+
+\usepackage[BoldFont,SlantFont,CJKchecksingle]{xeCJK}
+\setCJKmainfont[
+ ItalicFont={Adobe Kaiti Std}
+ ]{Hiragino Sans GB}
+\setCJKsansfont{Hiragino Sans GB}
+\setCJKmonofont{Hiragino Sans GB}
+\punctstyle{quanjiao}
