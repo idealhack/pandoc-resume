@@ -2,15 +2,15 @@
 \pagestyle{empty}
 
 \setmainfont[
- ItalicFont={Adobe Kaiti Std}
- ]{Myriad Pro}
-\setsansfont{Myriad Pro}
+ ItalicFont={Kaiti SC}
+ ]{Optima}
+\setsansfont{Optima}
 \setmonofont{Monaco}
 
 \usepackage[BoldFont,SlantFont,CJKchecksingle]{xeCJK}
 \setCJKmainfont[
- ItalicFont={Adobe Kaiti Std}
- ]{Hiragino Sans GB}
-\setCJKsansfont{Hiragino Sans GB}
-\setCJKmonofont{Hiragino Sans GB}
+ ItalicFont={Kaiti SC}
+ ]{PingFang SC}
+\setCJKsansfont{PingFang SC}
+\setCJKmonofont{PingFang SC}
 \punctstyle{quanjiao}

@@ -1,10 +1,21 @@
-all:    clean convert open
+all:       resume-zh resume-en
+resume-zh: clean-zh convert-zh open-zh
+resume-en: clean-en convert-en open-en
 
-convert:
-	pandoc resume.md -o resume.pdf --latex-engine=xelatex -H header.latex
+convert-zh:
+	pandoc resume-zh.md -o resume-zh.pdf --pdf-engine=xelatex -H header-zh.latex
 
-clean:
-	rm -f resume.pdf
+convert-en:
+	pandoc resume-en.md -o resume-en.pdf --pdf-engine=xelatex -H header-en.latex
 
-open:
-	open resume.pdf
+clean-zh:
+	rm -f resume-zh.pdf
+
+clean-en:
+	rm -f resume-en.pdf
+
+open-zh:
+	open resume-zh.pdf
+
+open-en:
+	open resume-en.pdf

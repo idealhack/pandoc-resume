@@ -1,0 +1,6 @@
+\usepackage[a4paper, top=.2in, bottom=.2in, left=.25in, right=.25in]{geometry}
+\pagestyle{empty}
+
+\setmainfont{Helvetica Neue}
+\setsansfont{Helvetica Neue}
+\setmonofont{Monaco}
